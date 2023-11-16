@@ -19,7 +19,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
+import org.openqa.selenium.By
+import org.openqa.selenium.WebElement
 
 public class General {
+	
+	@Keyword
+	public void findProducts() {
+		def elementos = WebUI.findWebElements(findTestObject('Object Repository/Amazon/Search Again/result_products_title'), 30)
+		def precios = WebUI.findWebElements(findTestObject('Object Repository/Amazon/Search Again/result_products_price'), 30)
+		for(producto in [elementos, precios].transpose()) {
+			println(producto[0].getText())
+			println(producto[1].getText())
+		}
+	}
 	
 }

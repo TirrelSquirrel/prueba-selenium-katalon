@@ -17,3 +17,8 @@ def static "com.helper.general.General.setup"(
 def static "com.helper.general.General.tearDown"() {
     (new com.helper.general.General()).tearDown()
 }
+
+
+def static "com.amazon.General.findProducts"() {
+    (new com.amazon.General()).findProducts()
+}
