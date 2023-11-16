@@ -21,6 +21,8 @@ name = WebUI.findWebElements(findTestObject('Object Repository/Amazon/Search Aga
 
 print(name)
 
+CustomKeywords.'com.amazon.General.findProducts'()
+
 delivery_date = WebUI.findWebElements(findTestObject('Amazon/Search Again/result_products_delivery_date'), 30)
 
 print(delivery_date)

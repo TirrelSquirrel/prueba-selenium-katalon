@@ -1,9 +1,14 @@
 {
-  "keywordFileContentHash": "805023B6FC28FDC851A39BBD634AEF88",
+  "keywordFileContentHash": "914EB06DCC91F0C1895C76EAA6417BE6",
   "keywordClasses": [
     {
       "name": "com.amazon.General",
-      "keywordMethods": []
+      "keywordMethods": [
+        {
+          "name": "findProducts",
+          "parameters": []
+        }
+      ]
     }
   ],
   "javadocParsed": false
