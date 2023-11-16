@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tests_prueba,Chrome 119.0.0.0,,,2023-11-16 15:13:07,2023-11-16 15:16:21,"3m - 14,397s",PASSED
+,,,,,,,
+Test Cases/Test_1,Chrome 119.0.0.0,,,2023-11-16 15:13:07,2023-11-16 15:14:11,"1m - 3,871s",PASSED
+"com.helper.general.General.setup(""https://www.google.es"")",Chrome 119.0.0.0,,,2023-11-16 15:13:07,2023-11-16 15:13:11,"3,536s",PASSED
+"callTestCase(findTestCase(""Test_1/Google_search""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:13:11,2023-11-16 15:13:19,"8,745s",PASSED
+"callTestCase(findTestCase(""Test_1/Amazon_cookies""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:13:19,2023-11-16 15:13:21,"1,166s",PASSED
+"callTestCase(findTestCase(""Test_1/Amazon_results""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:13:21,2023-11-16 15:13:26,"5,598s",PASSED
+"callTestCase(findTestCase(""Test_1/Amazon_product_getData""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:13:26,2023-11-16 15:13:30,"3,382s",PASSED
+"callTestCase(findTestCase(""Test_1/Amazon_search_product""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:13:30,2023-11-16 15:13:34,"4,472s",PASSED
+"callTestCase(findTestCase(""Test_1/Amazon_filter""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:13:34,2023-11-16 15:14:08,"34,036s",PASSED
+"callTestCase(findTestCase(""Test_1/Amazon-search_results_getData""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:14:08,2023-11-16 15:14:10,"2,245s",PASSED
+com.helper.general.General.tearDown(),Chrome 119.0.0.0,,,2023-11-16 15:14:10,2023-11-16 15:14:11,"0,367s",PASSED
+,,,,,,,
+Test Cases/Test_2,Chrome 119.0.0.0,,,2023-11-16 15:14:11,2023-11-16 15:15:57,"1m - 46,348s",PASSED
+"com.helper.general.General.setup(""https://www.amazon.es"")",Chrome 119.0.0.0,,,2023-11-16 15:14:11,2023-11-16 15:14:14,"3,441s",PASSED
+"callTestCase(findTestCase(""Test_1/Amazon_cookies""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:14:14,2023-11-16 15:14:17,"2,888s",PASSED
+"callTestCase(findTestCase(""Test_2/Amazon_account""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:14:17,2023-11-16 15:14:20,"2,864s",PASSED
+"callTestCase(findTestCase(""Test_2/Amazon_login""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:14:20,2023-11-16 15:15:57,"1m - 36,799s",PASSED
+com.helper.general.General.tearDown(),Chrome 119.0.0.0,,,2023-11-16 15:15:57,2023-11-16 15:15:57,"0,276s",PASSED
+,,,,,,,
+Test Cases/Test_3,Chrome 119.0.0.0,,,2023-11-16 15:15:57,2023-11-16 15:16:21,"23,955s",PASSED
+"com.helper.general.General.setup(""https://www.amazon.es"")",Chrome 119.0.0.0,,,2023-11-16 15:15:57,2023-11-16 15:16:00,"3,273s",PASSED
+"callTestCase(findTestCase(""Test_1/Amazon_cookies""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:16:00,2023-11-16 15:16:02,"1,788s",PASSED
+"callTestCase(findTestCase(""Test_2/Amazon_account""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:16:02,2023-11-16 15:16:05,"2,593s",PASSED
+"callTestCase(findTestCase(""Test_3/Amazon_register""), [:], STOP_ON_FAILURE)",Chrome 119.0.0.0,,,2023-11-16 15:16:05,2023-11-16 15:16:21,"16,182s",PASSED

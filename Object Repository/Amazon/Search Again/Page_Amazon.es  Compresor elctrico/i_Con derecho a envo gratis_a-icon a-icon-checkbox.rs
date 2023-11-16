@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Con derecho a envo gratis_a-icon a-icon-checkbox</name>
+   <tag></tag>
+   <elementGuidId>b414af5d-0622-44cd-84b7-867c9d80f317</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.a-icon.a-icon-checkbox</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='p_n_free_shipping_eligible/20930980031']/span/a/div/label/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>203ce5ff-46b4-4eb8-9e19-1b108724dca0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-icon a-icon-checkbox</value>
+      <webElementGuid>4adc5a49-53d9-43a2-8607-b8ebff278359</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;p_n_free_shipping_eligible/20930980031&quot;)/span[@class=&quot;a-list-item&quot;]/a[@class=&quot;a-link-normal s-navigation-item&quot;]/div[@class=&quot;a-checkbox a-checkbox-fancy s-navigation-checkbox aok-float-left&quot;]/label[1]/i[@class=&quot;a-icon a-icon-checkbox&quot;]</value>
+      <webElementGuid>2998eec2-03f5-4555-87e5-63cdbbd3f69a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='p_n_free_shipping_eligible/20930980031']/span/a/div/label/i</value>
+      <webElementGuid>904067d6-d39c-4f26-aceb-2f15fe2a125a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/i</value>
+      <webElementGuid>6d784309-c7fd-413e-9b3c-66130ee9e424</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

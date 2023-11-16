@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon/Search Again/Page_Amazon.es  Compresor elctrico/span_Ordenar porDestacados",
+      "brokenLocator": "//span[@id\u003d\u0027a-autoid-0-announce\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231116_151302/Tests_prueba/20231116_151302/Object Repository/Amazon/Search Again/Page_Amazon.es  Compresor elctrico/span_Ordenar porDestacados_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231116_151302/Tests_prueba/20231116_151302/Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password_position.png"
+    }
+  ]
+}

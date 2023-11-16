@@ -1,0 +1,44 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon/Search Again/Page_Amazon.es  Compresor elctrico/span_Ordenar porDestacados",
+      "brokenLocator": "//span[@id\u003d\u0027a-autoid-0-announce\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/span/span/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon/Search Again/Page_Amazon.es  Compresor elctrico/span_Ordenar porDestacados_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon/Registro/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/a_Mi cuenta",
+      "brokenLocator": "//div[@id\u003d\u0027navbar-backup-backup\u0027]/div/div[3]/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/input_Se ha producido un problema al guardar tus preferencias de cookies. Intntalo de nuevo_accept",
+      "brokenLocator": "//input[@id\u003d\u0027sp-cc-accept\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password",
+      "brokenLocator": "//input[@id\u003d\u0027ap_password\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password_position.png"
+    }
+  ]
+}
