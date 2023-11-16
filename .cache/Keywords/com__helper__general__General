@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "DF785BA310F77082ADCA034EE1E7E182",
+  "keywordClasses": [
+    {
+      "name": "com.helper.general.General",
+      "keywordMethods": [
+        {
+          "name": "setup",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "tearDown",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Aceptar todo</name>
+   <tag></tag>
+   <elementGuidId>1e0ae024-ac23-4e4c-a8a8-401c826b9b94</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#L2AGLb > div.QS5gu.sy4vM</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='L2AGLb']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>03b4d2fe-ccbd-46ae-bf3c-6914824a2c3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>QS5gu sy4vM</value>
+      <webElementGuid>a6beccef-265e-4384-bed4-d46cbbd023ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>eb8f18bf-34a3-409e-bfbf-1baa5f2f5ff2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Aceptar todo</value>
+      <webElementGuid>9a3c5a59-9ec3-499e-af40-a1c5e7eadf9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;L2AGLb&quot;)/div[@class=&quot;QS5gu sy4vM&quot;]</value>
+      <webElementGuid>d87291df-8b57-45be-aff4-41aaf2067188</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='L2AGLb']/div</value>
+      <webElementGuid>52657ff2-40f3-4048-8637-14a03264cffa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/div</value>
+      <webElementGuid>c92aae76-799d-448e-9117-5faa0d6bbe8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Aceptar todo' or . = 'Aceptar todo')]</value>
+      <webElementGuid>b796d44f-69e4-4216-8cd2-acec0fe97452</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
