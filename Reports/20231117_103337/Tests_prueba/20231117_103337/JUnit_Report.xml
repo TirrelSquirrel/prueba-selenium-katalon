@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Tests_prueba" time="180.402" tests="3" failures="0" errors="0">
+   <testsuite name="Tests_prueba" tests="3" failures="0" errors="0" time="180.402" skipped="0" timestamp="2023-11-17 10:33:42" hostname="abautite - NTTD-5G3XBS3" id="Test Suites/Tests_prueba">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\abautite\\Katalon Studio\\Prueba Automatizacion\\Reports\\20231117_103337\\Tests_prueba\\20231117_103337"/>
+         <property name="logFiles" value="C:\\Users\\abautite\\Katalon Studio\\Prueba Automatizacion\\Reports\\20231117_103337\\Tests_prueba\\20231117_103337\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="abautite - NTTD-5G3XBS3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.0.0.212"/>
+         <property name="browser" value="Chrome 119.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="5fdb8e3cf755fd7f6c1cdbecd549b0c1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test_1" time="63.751" classname="Test Cases/Test_1" status="PASSED">
+         <system-out><![CDATA[2023-11-17 10:33:42 - [TEST_CASE][PASSED] - Test Cases/Test_1: Test Cases/Test_1
+
+2023-11-17 10:33:42 - [TEST_STEP][PASSED] - com.helper.general.General.setup("https://www.google.es"): com.helper.general.General.setup is PASSED
+
+2023-11-17 10:33:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-17 10:33:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-17 10:33:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.google.es'
+
+2023-11-17 10:33:45 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-17 10:33:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-17 10:33:46 - [MESSAGE][PASSED] - com.helper.general.General.setup is PASSED
+
+2023-11-17 10:33:46 - [TEST_STEP][PASSED] - com.google.General.acceptCookies(): com.google.General.acceptCookies is PASSED
+
+2023-11-17 10:33:46 - [MESSAGE][PASSED] - Object 'Object Repository/Google/Main/Page_Google/div_Aceptar todo' is clickable
+
+2023-11-17 10:33:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Google/Main/Page_Google/div_Aceptar todo' is clicked on
+
+2023-11-17 10:33:46 - [MESSAGE][PASSED] - com.google.General.acceptCookies is PASSED
+
+2023-11-17 10:33:46 - [TEST_STEP][PASSED] - com.google.General.googleSearch(producto): com.google.General.googleSearch is PASSED
+
+2023-11-17 10:33:47 - [MESSAGE][PASSED] - Keys 'Compresor eléctrico' sent to object: 'Object Repository/Google/Main/Page_Google/textarea__q'
+
+2023-11-17 10:33:48 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Google/Main/Page_Google/textarea__q' is submitted
+
+2023-11-17 10:33:48 - [MESSAGE][PASSED] - com.google.General.googleSearch is PASSED
+
+2023-11-17 10:33:48 - [TEST_STEP][PASSED] - com.helper.general.Search_Results.getLink(findTestObject("Google/Search_results/Page_compresor electrico - Buscar con Google/h3_Compresores de aire Bricolaje y herramientas")): com.helper.general.Search_Results.getLink is PASSED
+
+2023-11-17 10:33:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Google/Search_results/Page_compresor electrico - Buscar con Google/h3_Compresores de aire Bricolaje y herramientas' is clicked on
+
+2023-11-17 10:33:53 - [MESSAGE][PASSED] - com.helper.general.Search_Results.getLink is PASSED
+
+2023-11-17 10:33:53 - [TEST_STEP][PASSED] - com.amazon.General.acceptCookies(): com.amazon.General.acceptCookies is PASSED
+
+2023-11-17 10:33:54 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/input_Se ha producido un problema al guardar tus preferencias de cookies. Intntalo de nuevo_accept' is clickable
+
+2023-11-17 10:33:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/input_Se ha producido un problema al guardar tus preferencias de cookies. Intntalo de nuevo_accept' is clicked on
+
+2023-11-17 10:33:54 - [MESSAGE][PASSED] - com.amazon.General.acceptCookies is PASSED
+
+2023-11-17 10:33:54 - [TEST_STEP][PASSED] - com.amazon.Search_Results.checkProductListAndGetFirst(): com.amazon.Search_Results.checkProductListAndGetFirst is PASSED
+
+2023-11-17 10:33:55 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/Results/A_1_Compresor' is clickable
+
+2023-11-17 10:34:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/Results/A_1_Compresor' is clicked on
+
+2023-11-17 10:34:02 - [MESSAGE][PASSED] - com.amazon.Search_Results.checkProductListAndGetFirst is PASSED
+
+2023-11-17 10:34:02 - [TEST_STEP][PASSED] - com.amazon.Produtc_Page.getProductData(): com.amazon.Produtc_Page.getProductData is PASSED
+
+2023-11-17 10:34:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Amazon/Product_page/Price_whole' is: '54'
+
+2023-11-17 10:34:04 - [MESSAGE][PASSED] - Text of object 'Object Repository/Amazon/Product_page/Price-fraction' is: '99'
+
+2023-11-17 10:34:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Amazon/Product_page/Delivery_date' is: 'martes, 21 de noviembre'
+
+2023-11-17 10:34:05 - [MESSAGE][PASSED] - com.amazon.Produtc_Page.getProductData is PASSED
+
+2023-11-17 10:34:05 - [TEST_STEP][PASSED] - com.amazon.General.searchProduct(): com.amazon.General.searchProduct is PASSED
+
+2023-11-17 10:34:06 - [MESSAGE][PASSED] - Text 'Compresor eléctrico' is set on object 'Object Repository/Amazon/Search Again/Page_TROTEC Compresor de batera PCPS 10-16V y Bomba de aire de batera PCPS 11-16V  Amazon.es Bricolaje y herramientas/input_Buscar Amazon.es_field-keywords'
+
+2023-11-17 10:34:10 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Amazon/Search Again/Page_TROTEC Compresor de batera PCPS 10-16V y Bomba de aire de batera PCPS 11-16V  Amazon.es Bricolaje y herramientas/input_Buscar Amazon.es_field-keywords' is submitted
+
+2023-11-17 10:34:10 - [MESSAGE][PASSED] - com.amazon.General.searchProduct is PASSED
+
+2023-11-17 10:34:10 - [TEST_STEP][PASSED] - com.amazon.Search_Results.filter_Results(): com.amazon.Search_Results.filter_Results is PASSED
+
+2023-11-17 10:34:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/Search Again/Page_Amazon.es  Compresor elctrico/i_Con derecho a envo gratis_a-icon a-icon-checkbox' is clicked on
+
+2023-11-17 10:34:42 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[@id='a-autoid-0-announce']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-17 10:34:42 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon/Search Again/Page_Amazon.es  Compresor elctrico/span_Ordenar porDestacados'. Try using Self-healing.
+
+2023-11-17 10:34:42 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Amazon/Search Again/Page_Amazon.es  Compresor elctrico/span_Ordenar porDestacados' was broken. Propose an alternative one: '//span/span/span/span'.
+
+2023-11-17 10:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/Search Again/Page_Amazon.es  Compresor elctrico/span_Ordenar porDestacados' is clicked on
+
+2023-11-17 10:34:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/Search Again/Page_Amazon.es  Compresor elctrico/a_Precio De menor a mayor' is clicked on
+
+2023-11-17 10:34:43 - [MESSAGE][PASSED] - com.amazon.Search_Results.filter_Results is PASSED
+
+2023-11-17 10:34:43 - [TEST_STEP][PASSED] - com.amazon.Search_Results.get_Products_Data(): com.amazon.Search_Results.get_Products_Data is PASSED
+
+2023-11-17 10:34:45 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Amazon/Search Again/result_products_title
+
+2023-11-17 10:34:45 - [MESSAGE][PASSED] - Found web elements by test object Object Repository/Amazon/Search Again/result_products_price
+
+2023-11-17 10:34:45 - [MESSAGE][PASSED] - com.amazon.Search_Results.get_Products_Data is PASSED
+
+2023-11-17 10:34:45 - [TEST_STEP][PASSED] - com.helper.general.General.tearDown(): com.helper.general.General.tearDown is PASSED
+
+2023-11-17 10:34:46 - [MESSAGE][PASSED] - Browser is closed
+
+2023-11-17 10:34:46 - [MESSAGE][PASSED] - com.helper.general.General.tearDown is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_2" time="102.623" classname="Test Cases/Test_2" status="PASSED">
+         <system-out><![CDATA[2023-11-17 10:34:46 - [TEST_CASE][PASSED] - Test Cases/Test_2: Test Cases/Test_2
+
+2023-11-17 10:34:46 - [TEST_STEP][PASSED] - com.helper.general.General.setup("https://www.amazon.es"): com.helper.general.General.setup is PASSED
+
+2023-11-17 10:34:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-17 10:34:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-17 10:34:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.amazon.es'
+
+2023-11-17 10:34:49 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-17 10:34:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-17 10:34:49 - [MESSAGE][PASSED] - com.helper.general.General.setup is PASSED
+
+2023-11-17 10:34:49 - [TEST_STEP][PASSED] - com.amazon.General.acceptCookies(): com.amazon.General.acceptCookies is PASSED
+
+2023-11-17 10:34:50 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/input_Se ha producido un problema al guardar tus preferencias de cookies. Intntalo de nuevo_accept' is clickable
+
+2023-11-17 10:34:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/input_Se ha producido un problema al guardar tus preferencias de cookies. Intntalo de nuevo_accept' is clicked on
+
+2023-11-17 10:34:50 - [MESSAGE][PASSED] - com.amazon.General.acceptCookies is PASSED
+
+2023-11-17 10:34:50 - [TEST_STEP][PASSED] - com.amazon.General.myAccount(): com.amazon.General.myAccount is PASSED
+
+2023-11-17 10:34:51 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/Login/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/span_Cuenta y listas' is clickable
+
+2023-11-17 10:34:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/Login/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/span_Cuenta y listas' is clicked on
+
+2023-11-17 10:34:52 - [MESSAGE][PASSED] - com.amazon.General.myAccount is PASSED
+
+2023-11-17 10:34:52 - [TEST_STEP][PASSED] - com.amazon.userForm.login(): com.amazon.userForm.login is PASSED
+
+2023-11-17 10:34:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Direccin de e-mail o nmero de telfono mvil_email'
+
+2023-11-17 10:34:54 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Direccin de e-mail o nmero de telfono mvil_email' is submitted
+
+2023-11-17 10:35:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='ap_password']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-17 10:35:25 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password'. Try using Self-healing.
+
+2023-11-17 10:35:25 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password' was broken. Propose an alternative one: '//div/div/input'.
+
+2023-11-17 10:35:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='ap_password']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-17 10:35:56 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password'. Try using Self-healing.
+
+2023-11-17 10:35:57 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password' was broken. Propose an alternative one: '//div/div/input'.
+
+2023-11-17 10:35:57 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password'
+
+2023-11-17 10:36:28 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //input[@id='ap_password']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-11-17 10:36:28 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password'. Try using Self-healing.
+
+2023-11-17 10:36:28 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password' was broken. Propose an alternative one: '//div/div/input'.
+
+2023-11-17 10:36:28 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password' is submitted
+
+2023-11-17 10:36:28 - [MESSAGE][PASSED] - com.amazon.userForm.login is PASSED
+
+2023-11-17 10:36:28 - [TEST_STEP][PASSED] - com.helper.general.General.tearDown(): com.helper.general.General.tearDown is PASSED
+
+2023-11-17 10:36:28 - [MESSAGE][PASSED] - Browser is closed
+
+2023-11-17 10:36:28 - [MESSAGE][PASSED] - com.helper.general.General.tearDown is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test_3" time="13.833" classname="Test Cases/Test_3" status="PASSED">
+         <system-out><![CDATA[2023-11-17 10:36:28 - [TEST_CASE][PASSED] - Test Cases/Test_3: Test Cases/Test_3
+
+2023-11-17 10:36:28 - [TEST_STEP][PASSED] - com.helper.general.General.setup("https://www.amazon.es"): com.helper.general.General.setup is PASSED
+
+2023-11-17 10:36:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-11-17 10:36:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-11-17 10:36:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.amazon.es'
+
+2023-11-17 10:36:31 - [MESSAGE][PASSED] - Current window maximized
+
+2023-11-17 10:36:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-11-17 10:36:31 - [MESSAGE][PASSED] - com.helper.general.General.setup is PASSED
+
+2023-11-17 10:36:31 - [TEST_STEP][PASSED] - com.amazon.General.acceptCookies(): com.amazon.General.acceptCookies is PASSED
+
+2023-11-17 10:36:32 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/input_Se ha producido un problema al guardar tus preferencias de cookies. Intntalo de nuevo_accept' is clickable
+
+2023-11-17 10:36:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/input_Se ha producido un problema al guardar tus preferencias de cookies. Intntalo de nuevo_accept' is clicked on
+
+2023-11-17 10:36:32 - [MESSAGE][PASSED] - com.amazon.General.acceptCookies is PASSED
+
+2023-11-17 10:36:32 - [TEST_STEP][PASSED] - com.amazon.General.myAccount(): com.amazon.General.myAccount is PASSED
+
+2023-11-17 10:36:33 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/Login/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/span_Cuenta y listas' is clickable
+
+2023-11-17 10:36:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/Login/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/span_Cuenta y listas' is clicked on
+
+2023-11-17 10:36:35 - [MESSAGE][PASSED] - com.amazon.General.myAccount is PASSED
+
+2023-11-17 10:36:35 - [TEST_STEP][PASSED] - com.amazon.userForm.register(): com.amazon.userForm.register is PASSED
+
+2023-11-17 10:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/Registro/Page_Iniciar sesin en Amazon/a_Crea tu cuenta de Amazon' is clicked on
+
+2023-11-17 10:36:38 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/Registro/Page_Registro de Amazon/input_Nombre_customerName' is visible
+
+2023-11-17 10:36:38 - [MESSAGE][PASSED] - Text 'Juan Perez Lopez' is set on object 'Object Repository/Amazon/Registro/Page_Registro de Amazon/input_Nombre_customerName'
+
+2023-11-17 10:36:39 - [MESSAGE][PASSED] - Text 'vifita7627@dabeixin.com' is set on object 'Object Repository/Amazon/Registro/Page_Registro de Amazon/input_ES 34_email'
+
+2023-11-17 10:36:40 - [MESSAGE][PASSED] - Text 'contrase1' is set on object 'Object Repository/Amazon/Registro/Page_Registro de Amazon/input_Contrasea_password'
+
+2023-11-17 10:36:41 - [MESSAGE][PASSED] - Text 'contrase1' is set on object 'Object Repository/Amazon/Registro/Page_Registro de Amazon/input_Confirma tu contrasea_passwordCheck'
+
+2023-11-17 10:36:42 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Amazon/Registro/Page_Registro de Amazon/input_Confirma tu contrasea_passwordCheck' is submitted
+
+2023-11-17 10:36:42 - [MESSAGE][PASSED] - com.amazon.userForm.register is PASSED
+
+2023-11-17 10:36:42 - [TEST_STEP][PASSED] - com.helper.general.General.tearDown(): com.helper.general.General.tearDown is PASSED
+
+2023-11-17 10:36:42 - [MESSAGE][PASSED] - Browser is closed
+
+2023-11-17 10:36:42 - [MESSAGE][PASSED] - com.helper.general.General.tearDown is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-11-17 10:33:42 - [TEST_SUITE][PASSED] - Tests_prueba: Test Cases/Test_3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

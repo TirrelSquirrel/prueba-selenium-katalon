@@ -32,11 +32,6 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object emailRegister
-     
-    /**
-     * <p></p>
-     */
     public static Object nameRegister
      
     /**
@@ -47,7 +42,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object alternativeemailRegister
+    public static Object emailRegister
      
 
     static {
@@ -60,10 +55,9 @@ public class GlobalVariable {
             producto = selectedVariables['producto']
             emailLogin = selectedVariables['emailLogin']
             passLogin = selectedVariables['passLogin']
-            emailRegister = selectedVariables['emailRegister']
             nameRegister = selectedVariables['nameRegister']
             passRegister = selectedVariables['passRegister']
-            alternativeemailRegister = selectedVariables['alternativeemailRegister']
+            emailRegister = selectedVariables['emailRegister']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)

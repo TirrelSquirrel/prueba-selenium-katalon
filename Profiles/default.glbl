@@ -26,11 +26,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name>emailRegister</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'Juan Perez Lopez'</initValue>
       <name>nameRegister</name>
    </GlobalVariableEntity>
@@ -42,6 +37,6 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'vifita7627@dabeixin.com'</initValue>
-      <name>alternativeemailRegister</name>
+      <name>emailRegister</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

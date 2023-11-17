@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Tests_prueba,Chrome 119.0.0.0,,,2023-11-17 10:33:42,2023-11-17 10:36:42,"3m - 0,402s",PASSED
+,,,,,,,
+Test Cases/Test_1,Chrome 119.0.0.0,,,2023-11-17 10:33:42,2023-11-17 10:34:46,"1m - 3,751s",PASSED
+"com.helper.general.General.setup(""https://www.google.es"")",Chrome 119.0.0.0,,,2023-11-17 10:33:42,2023-11-17 10:33:46,"3,420s",PASSED
+com.google.General.acceptCookies(),Chrome 119.0.0.0,,,2023-11-17 10:33:46,2023-11-17 10:33:46,"0,733s",PASSED
+com.google.General.googleSearch(producto),Chrome 119.0.0.0,,,2023-11-17 10:33:46,2023-11-17 10:33:48,"1,321s",PASSED
+"com.helper.general.Search_Results.getLink(findTestObject(""Google/Search_results/Page_compresor electrico - Buscar con Google/h3_Compresores de aire Bricolaje y herramientas""))",Chrome 119.0.0.0,,,2023-11-17 10:33:48,2023-11-17 10:33:53,"5,308s",PASSED
+com.amazon.General.acceptCookies(),Chrome 119.0.0.0,,,2023-11-17 10:33:53,2023-11-17 10:33:54,"1,147s",PASSED
+com.amazon.Search_Results.checkProductListAndGetFirst(),Chrome 119.0.0.0,,,2023-11-17 10:33:54,2023-11-17 10:34:02,"7,789s",PASSED
+com.amazon.Produtc_Page.getProductData(),Chrome 119.0.0.0,,,2023-11-17 10:34:02,2023-11-17 10:34:05,"3,018s",PASSED
+com.amazon.General.searchProduct(),Chrome 119.0.0.0,,,2023-11-17 10:34:05,2023-11-17 10:34:10,"4,628s",PASSED
+com.amazon.Search_Results.filter_Results(),Chrome 119.0.0.0,,,2023-11-17 10:34:10,2023-11-17 10:34:43,"33,156s",PASSED
+com.amazon.Search_Results.get_Products_Data(),Chrome 119.0.0.0,,,2023-11-17 10:34:43,2023-11-17 10:34:45,"2,647s",PASSED
+com.helper.general.General.tearDown(),Chrome 119.0.0.0,,,2023-11-17 10:34:45,2023-11-17 10:34:46,"0,334s",PASSED
+,,,,,,,
+Test Cases/Test_2,Chrome 119.0.0.0,,,2023-11-17 10:34:46,2023-11-17 10:36:28,"1m - 42,623s",PASSED
+"com.helper.general.General.setup(""https://www.amazon.es"")",Chrome 119.0.0.0,,,2023-11-17 10:34:46,2023-11-17 10:34:49,"3,171s",PASSED
+com.amazon.General.acceptCookies(),Chrome 119.0.0.0,,,2023-11-17 10:34:49,2023-11-17 10:34:50,"1,141s",PASSED
+com.amazon.General.myAccount(),Chrome 119.0.0.0,,,2023-11-17 10:34:50,2023-11-17 10:34:52,"2,375s",PASSED
+com.amazon.userForm.login(),Chrome 119.0.0.0,,,2023-11-17 10:34:52,2023-11-17 10:36:28,"1m - 35,607s",PASSED
+com.helper.general.General.tearDown(),Chrome 119.0.0.0,,,2023-11-17 10:36:28,2023-11-17 10:36:28,"0,278s",PASSED
+,,,,,,,
+Test Cases/Test_3,Chrome 119.0.0.0,,,2023-11-17 10:36:28,2023-11-17 10:36:42,"13,833s",PASSED
+"com.helper.general.General.setup(""https://www.amazon.es"")",Chrome 119.0.0.0,,,2023-11-17 10:36:28,2023-11-17 10:36:31,"3,014s",PASSED
+com.amazon.General.acceptCookies(),Chrome 119.0.0.0,,,2023-11-17 10:36:31,2023-11-17 10:36:32,"1,024s",PASSED
+com.amazon.General.myAccount(),Chrome 119.0.0.0,,,2023-11-17 10:36:32,2023-11-17 10:36:35,"2,905s",PASSED
+com.amazon.userForm.register(),Chrome 119.0.0.0,,,2023-11-17 10:36:35,2023-11-17 10:36:42,"6,551s",PASSED
+com.helper.general.General.tearDown(),Chrome 119.0.0.0,,,2023-11-17 10:36:42,2023-11-17 10:36:42,"0,296s",PASSED
