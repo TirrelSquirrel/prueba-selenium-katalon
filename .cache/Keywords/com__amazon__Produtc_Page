@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A276810218F91141517E82D48CCFEB4C",
+  "keywordClasses": [
+    {
+      "name": "com.amazon.Produtc_Page",
+      "keywordMethods": [
+        {
+          "name": "getProductData",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

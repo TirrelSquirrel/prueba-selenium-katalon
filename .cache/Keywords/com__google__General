@@ -1,14 +1,19 @@
 {
-  "keywordFileContentHash": "9382970DBD5B0F930970323391585BE2",
+  "keywordFileContentHash": "3DCBBB62A622648818D761969A4B5FBD",
   "keywordClasses": [
     {
-      "name": "com.helper.general.General",
+      "name": "com.google.General",
       "keywordMethods": [
         {
-          "name": "setup",
+          "name": "acceptCookies",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "googleSearch",
           "parameters": [
             {
-              "name": "url",
+              "name": "texto",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -21,11 +26,6 @@
               }
             }
           ],
-          "javadoc": ""
-        },
-        {
-          "name": "tearDown",
-          "parameters": [],
           "javadoc": ""
         }
       ]

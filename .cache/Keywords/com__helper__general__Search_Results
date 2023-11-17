@@ -1,18 +1,18 @@
 {
-  "keywordFileContentHash": "9382970DBD5B0F930970323391585BE2",
+  "keywordFileContentHash": "C0EEFD8ACADD5B373233D4231745DB6D",
   "keywordClasses": [
     {
-      "name": "com.helper.general.General",
+      "name": "com.helper.general.Search_Results",
       "keywordMethods": [
         {
-          "name": "setup",
+          "name": "getLink",
           "parameters": [
             {
-              "name": "url",
+              "name": "link",
               "initialExpression": "",
               "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
                 "isArray": false,
                 "isGnericsPlaceHolder": false,
                 "hasImmutableClassName": false,
@@ -21,11 +21,6 @@
               }
             }
           ],
-          "javadoc": ""
-        },
-        {
-          "name": "tearDown",
-          "parameters": [],
           "javadoc": ""
         }
       ]

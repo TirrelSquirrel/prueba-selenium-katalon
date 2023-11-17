@@ -1,4 +1,4 @@
-package com.helper.general
+package com.google
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -20,18 +20,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-
 public class General {
-
+	
 	@Keyword
-	public void setup(String url) {
-		WebUI.openBrowser(url);
-		WebUI.maximizeWindow();
-		WebUI.waitForPageLoad(internal.GlobalVariable.pageLoadWait)
+	public void acceptCookies() {
+		Boolean aceptar_cookies = WebUI.verifyElementClickable(findTestObject('Google/Main/Page_Google/div_Aceptar todo'))
+		
+		if (aceptar_cookies) {
+			WebUI.click(findTestObject('Google/Main/Page_Google/div_Aceptar todo'))
+		}
 	}
-
+	
 	@Keyword
-	public void tearDown() {
-		WebUI.closeBrowser()
+	public void googleSearch(String texto) {
+		WebUI.sendKeys(findTestObject('Google/Main/Page_Google/textarea__q'), texto)
+		
+		WebUI.submit(findTestObject('Google/Main/Page_Google/textarea__q'))
 	}
 }

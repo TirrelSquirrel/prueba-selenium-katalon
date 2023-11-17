@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-price_whole = WebUI.getText(findTestObject('Amazon/Product_page/Price_whole'))
+CustomKeywords.'com.helper.general.General.setup'('https://www.amazon.es')
 
-price_fraction = WebUI.getText(findTestObject('Amazon/Product_page/Price-fraction'))
+CustomKeywords.'com.amazon.General.acceptCookies'()
 
-delivery_date = WebUI.getText(findTestObject('Amazon/Product_page/Delivery_date'))
+CustomKeywords.'com.amazon.General.myAccount'()
 
-println(price_whole + "'" + price_fraction)
-println(delivery_date)
+CustomKeywords.'com.amazon.userForm.register'()
+
+CustomKeywords.'com.helper.general.General.tearDown'()
+

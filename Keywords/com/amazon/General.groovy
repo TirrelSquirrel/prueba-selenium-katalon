@@ -23,15 +23,41 @@ import org.openqa.selenium.By
 import org.openqa.selenium.WebElement
 
 public class General {
-	
 	@Keyword
-	public void findProducts() {
-		def elementos = WebUI.findWebElements(findTestObject('Object Repository/Amazon/Search Again/result_products_title'), 30)
-		def precios = WebUI.findWebElements(findTestObject('Object Repository/Amazon/Search Again/result_products_price'), 30)
-		for(producto in [elementos, precios].transpose()) {
-			println(producto[0].getText())
-			println(producto[1].getText())
+	public void acceptCookies() {
+		Boolean cookies = WebUI.verifyElementClickable(findTestObject('Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/input_Se ha producido un problema al guardar tus preferencias de cookies. Intntalo de nuevo_accept'))
+
+		if (cookies) {
+			WebUI.click(findTestObject('Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/input_Se ha producido un problema al guardar tus preferencias de cookies. Intntalo de nuevo_accept'))
+		} else {
+			Boolean cookies_alt = WebUI.verifyElementClickable(findTestObject('Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/Alternative_cookies'))
+
+			if (cookies_alt) {
+				WebUI.click(findTestObject('Amazon/General/Page_Amazon.es Compresores de aire Bricolaje y herramientas/Alternative_cookies'))
+			}
 		}
 	}
 	
+	@Keyword
+	public void searchProduct() {
+		WebUI.setText(findTestObject('Amazon/Search Again/Page_TROTEC Compresor de batera PCPS 10-16V y Bomba de aire de batera PCPS 11-16V  Amazon.es Bricolaje y herramientas/input_Buscar Amazon.es_field-keywords'),
+			GlobalVariable.producto)
+		
+		WebUI.submit(findTestObject('Amazon/Search Again/Page_TROTEC Compresor de batera PCPS 10-16V y Bomba de aire de batera PCPS 11-16V  Amazon.es Bricolaje y herramientas/input_Buscar Amazon.es_field-keywords'))
+		
+		
+	}
+	
+	@Keyword
+	public void myAccount() {
+		Boolean mi_cuenta = WebUI.verifyElementClickable(findTestObject('Amazon/Login/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/span_Cuenta y listas'))
+		
+		if (mi_cuenta) {
+			WebUI.click(findTestObject('Amazon/Login/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/span_Cuenta y listas'))
+		} else {
+			WebUI.click(findTestObject('Amazon/Registro/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/a_Mi cuenta'))
+		}
+	}
+
+
 }

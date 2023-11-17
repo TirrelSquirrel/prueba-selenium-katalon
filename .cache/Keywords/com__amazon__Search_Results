@@ -1,21 +1,21 @@
 {
-  "keywordFileContentHash": "EE3DFB77304BDB92EEE2497EEE47CBE4",
+  "keywordFileContentHash": "6812493BB181CC99D66568AD8E06AE9F",
   "keywordClasses": [
     {
-      "name": "com.amazon.General",
+      "name": "com.amazon.Search_Results",
       "keywordMethods": [
         {
-          "name": "acceptCookies",
+          "name": "checkProductListAndGetFirst",
           "parameters": [],
           "javadoc": ""
         },
         {
-          "name": "searchProduct",
+          "name": "filter_Results",
           "parameters": [],
           "javadoc": ""
         },
         {
-          "name": "myAccount",
+          "name": "get_Products_Data",
           "parameters": [],
           "javadoc": ""
         }

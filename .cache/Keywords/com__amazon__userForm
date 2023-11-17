@@ -1,0 +1,19 @@
+{
+  "keywordFileContentHash": "59DB09A58D67AAA529C6FD3ED2EAF28B",
+  "keywordClasses": [
+    {
+      "name": "com.amazon.userForm",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": []
+        },
+        {
+          "name": "register",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

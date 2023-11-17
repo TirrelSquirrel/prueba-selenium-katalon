@@ -17,11 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-mi_cuenta = WebUI.verifyElementClickable(findTestObject('Amazon/Login/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/span_Cuenta y listas'))
+CustomKeywords.'com.helper.general.General.setup'('https://www.google.es')
 
-if (mi_cuenta) {
-    WebUI.click(findTestObject('Amazon/Login/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/span_Cuenta y listas'))
-} else {
-    WebUI.click(findTestObject('Amazon/Registro/Page_Amazon.es compra online de electrnica, libros, deporte, hogar, moda y mucho ms/a_Mi cuenta'))
-}
+CustomKeywords.'com.google.General.acceptCookies'()
+
+CustomKeywords.'com.google.General.googleSearch'(GlobalVariable.producto)
+
+CustomKeywords.'com.helper.general.Search_Results.getLink'(findTestObject('Google/Search_results/Page_compresor electrico - Buscar con Google/h3_Compresores de aire Bricolaje y herramientas'))
+
+CustomKeywords.'com.amazon.General.acceptCookies'()
+
+CustomKeywords.'com.amazon.Search_Results.checkProductListAndGetFirst'()
+
+CustomKeywords.'com.amazon.Produtc_Page.getProductData'()
+
+CustomKeywords.'com.amazon.General.searchProduct'()
+
+CustomKeywords.'com.amazon.Search_Results.filter_Results'()
+
+CustomKeywords.'com.amazon.Search_Results.get_Products_Data'()
+
+CustomKeywords.'com.helper.general.General.tearDown'()
 

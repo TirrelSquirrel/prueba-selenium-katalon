@@ -17,12 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.setText(findTestObject('Amazon/Login/Page_Iniciar sesin en Amazon/input_Direccin de e-mail o nmero de telfono mvil_email'), 
-    GlobalVariable.emailLogin)
+CustomKeywords.'com.helper.general.General.setup'('https://www.amazon.es')
 
-WebUI.submit(findTestObject('Amazon/Login/Page_Iniciar sesin en Amazon/input_Direccin de e-mail o nmero de telfono mvil_email'))
+CustomKeywords.'com.amazon.General.acceptCookies'()
 
-WebUI.setText(findTestObject('Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password'), GlobalVariable.passLogin)
+CustomKeywords.'com.amazon.General.myAccount'()
 
-WebUI.submit(findTestObject('Amazon/Login/Page_Iniciar sesin en Amazon/input_Has olvidado la contrasea_password'))
+CustomKeywords.'com.amazon.userForm.login'()
+
+CustomKeywords.'com.helper.general.General.tearDown'()
 
