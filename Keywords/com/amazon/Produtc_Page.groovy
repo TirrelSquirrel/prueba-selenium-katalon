@@ -1,4 +1,4 @@
-package com.helper.general
+package com.amazon
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -20,18 +20,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-
-public class General {
-
+public class Produtc_Page {
+	
 	@Keyword
-	public void setup(String url) {
-		WebUI.openBrowser(url);
-		WebUI.maximizeWindow();
-		WebUI.waitForPageLoad(internal.GlobalVariable.pageLoadWait)
-	}
-
-	@Keyword
-	public void tearDown() {
-		WebUI.closeBrowser()
+	public void getProductData() {		
+		String price_whole = WebUI.getText(findTestObject('Amazon/Product_page/Price_whole'))
+		
+		String price_fraction = WebUI.getText(findTestObject('Amazon/Product_page/Price-fraction'))
+		
+		String delivery_date = WebUI.getText(findTestObject('Amazon/Product_page/Delivery_date'))
+		
+		println(price_whole + "'" + price_fraction)
+		println(delivery_date)
 	}
 }

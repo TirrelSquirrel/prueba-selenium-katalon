@@ -20,18 +20,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-
-public class General {
-
+public class Search_Results {
+	
 	@Keyword
-	public void setup(String url) {
-		WebUI.openBrowser(url);
-		WebUI.maximizeWindow();
-		WebUI.waitForPageLoad(internal.GlobalVariable.pageLoadWait)
-	}
-
-	@Keyword
-	public void tearDown() {
-		WebUI.closeBrowser()
+	public void getLink(TestObject link) {
+		WebUI.click(link)
 	}
 }
